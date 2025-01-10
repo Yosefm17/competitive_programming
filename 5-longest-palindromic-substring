@@ -1,10 +1,5 @@
+//palindrome of string
 def palindrome_pad(s):
-    """
-    Transforms a string such that all palindrome substrings have odd length:
-    * 'aa' -> 'a!a'
-    * 'abba' -> 'a!b!b!a'
-    * 'aba' -> 'a!b!a'
-    """
     assert '!' not in s
     return '!'.join(s)
 
